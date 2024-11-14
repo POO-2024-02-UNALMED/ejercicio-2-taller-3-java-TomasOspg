@@ -1,12 +1,12 @@
 package objtaller3;
 
-import compras.**;
+import compras.Producto;
 import gestionHumana.Empleado;
-import **;
+import compas.OrdenCompra;
 
 public class ObjTaller3 {
 
-    public static void main(** args) {
+    public static void main(String[] args) {
         Producto p1 = new Producto(1, "Escoba", "Aseo");
         Producto p2 = new Producto(2, "Camisa", "Ropa");
         Producto p3 = new Producto(3, "Trapera", "Aseo");
